@@ -1,0 +1,160 @@
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-img {
+    width: 120px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.title-dot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    width: 600px;
+    /*height: 60px;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-dot {
+    height: 24px;
+    object-fit: contain;
+}
+
+.card-text {
+    width: 652px;
+    height: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5C5C5C;
+}
+
+.date-location {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.calender {
+    /*height: 20px;*/
+    width: 30%;
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 8px;
+}
+
+.button {
+    width: 100%;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #A9AEB8;
+    color: #E56135;
+    background-color: #FFFFFF;
+}
+
+.company {
+    width: 50%;
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 8px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    object-fit: contain;
+}
+
+.card-name {
+    height: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.eye-views {
+    display: flex;
+    align-content: center;
+    gap: 8px;
+}
+
+.card-views {
+    height: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #525252;
+}
+
+.visibility-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.share-img-div {
+    width: 42px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #EDEEF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+/*.row {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

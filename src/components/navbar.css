@@ -1,0 +1,100 @@
+.contain {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100vw;
+  height: 72px;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0px #0000001F;
+}
+
+.contain img {
+  width: 162.58px;
+  height: 24.01px;
+  position: relative;
+  top: -0.01px;
+  left: -0.01px;
+}
+
+.search-box {
+    width: 360px;
+    height: 42px;
+    /*position: relative;*/
+    top: 16px;
+    left: 540px;
+    border-radius: 21px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.search-box .search-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    color: #5C5C5C;
+}
+
+.search-box .search-input {
+    border: none;
+    background: none;
+    margin-left: 2px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #5C5C5C;
+    width: 100%;
+}
+
+.search-box .search-input::placeholder {
+    color: #5C5C5C;
+}
+
+.account {
+  display: flex;
+}
+
+.account-text {
+  width: 183px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.account-text1, .account-text2 {
+  position: relative;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /*text-align: right;*/
+}
+
+.account-text1 {
+  color: #000000;
+}
+
+.account-text2 {
+  color: #2F6CE5;
+}
+
+.account-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.account-icon-wrapper img {
+  width: 10px;
+  height: 5px;
+  position: relative;
+  object-fit: contain;
+}
